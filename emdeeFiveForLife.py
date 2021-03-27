@@ -4,7 +4,7 @@ import hashlib
 
 url = 'http://178.62.54.33:31146/'
 
-# sen request to get the random string
+# send request to get the random string
 s = requests.session()  # both GET & POST requests have to be in the same session
 
 response = s.get(url)
